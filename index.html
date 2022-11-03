@@ -1,0 +1,166 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" 
+      type="image/png" 
+      href="img/kon.ico" />
+</head>
+
+
+<body>
+
+	<div id="kontener2">
+		<div id="kontener">
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank" name="zlecenie">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-02-31">
+				<input type="search" size="11" name="NRDOKUMENTU" autocomplete="off" required="required"
+					pattern="^[0-9]{6,7}$" placeholder="numer zlecenia" maxlength="7">
+				<input id="zlecenie" type="submit" value=""></form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank" name="max">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="INDEKS" autocomplete="off"
+					required="required" placeholder="kod MAX">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank" name="lp">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="NRLIST_C" autocomplete="off"
+					required="required" placeholder="lp od dostawcy">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="NRSPRZEDAZY" autocomplete="off"
+					required="required" placeholder="Faktura">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="SERIA" autocomplete="off"
+					required="required" placeholder="S/N">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="NRSER_C" autocomplete="off"
+					required="required" placeholder="S/N wydany">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado"
+					value="2030-01-31"><input type="search" size="11" name="NRSPEDYCJI" autocomplete="off"
+					required="required" placeholder="numer LP">
+				<input type="submit" value="">
+			</form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank">
+				<input type="hidden" name="widok" value="KTR_ZABLOKOWANE_DOK">
+				<input type="search" size="11" name="USERNAME" autocomplete="off" required="required"
+					placeholder="zablokowane login">
+				<input type="submit" value="">
+			</form>
+
+
+			<input id="accura" name="accura" type="search" placeholder="s/n Accura">
+			<input id="accuraSn" type="submit" value="">
+			<div id="dostawcaA"><br></div>
+
+
+
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank" class="test test2">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado" value="">
+				<button class="grid"><img src="img/grid.png" width="18" height="18"
+						alt="Wyszukiwarka serwisowa"></button></form>
+
+			<form action="http://eserwis.ktr.local/role_sys/j_grid.aspx?" target="_blank" class="test test2">
+				<input type="hidden" name="widok" value="dprek3">
+				<input type="hidden" name="dataod" value="2016-03-08"><input type="hidden" name="datado" value="">
+				<input type="hidden" name="mls-STATUSC" value="DOST">
+				<button class="grid"><img src="img/mailbox.png" width="18" height="18" alt="U dostawcy"></button></form>
+
+			<a href="http://eserwis.ktr.local/role_sys/x_run.aspx?kod=DPREKc&run=../role_sys/j_grid.aspx&params=widok|dprek3&style=left:15%25;right:15%25;%20margin-left:0px;%20min-width:800px;position:relative"
+				target="_blank" class="test test2">
+				<button class="grid"><img src="img/lupa2.png" width="18" height="18"
+						alt="Wyszukiwarka serwisowa"></button></a>
+
+
+			<a href="http://eserwis.ktr.local/role_sys/g_grid.aspx?widok=GOG_KTR_DPREK1&placeholder=1&leftpanelwidth=320"
+				target="_blank" class="test test2">
+				<button class="grid"><img src="img/lorneta2.png" width="18" height="18"
+						alt="Lornetka serwisowa"></button></a>
+
+			<div id="select" class="kursor">
+				<p id="tools" class="test" data-option="tools">Narzędzia</p>
+				<p id="tracking" class="test" data-option="tracking">Tracking</p>
+			</div>
+
+			<div class="tools" id="tools">
+
+				<a href="http://eserwis.ktr.local/DefaultSoftwareStudio.aspx" target="_blank" class="test">
+					<button><img src="img/ss.png" alt="SoftwareStudio"></button></a>
+
+				<a href="http://max.ktr.pl:3080/Quatra/" target="_blank" class="test">
+					<button><img src="img/max.png" alt="MAX"></button></a>
+
+				<a href="https://ecom.dhl.com.pl/APP/skanlp/Login.aspx?ReturnUrl=%2fAPP%2fskanlp%2fMainPage.aspx"
+					target="_blank" class="test">
+					<button><img src="img/dhl.png" alt="Przeglądanie listów"></button></a>
+				<div><br><textarea id="notatnik" rows="5" cols="16" placeholder="notatnik"></textarea></div><br>
+
+
+			</div>
+			<div class="tracking hide" id="tracking"><a href="https://sprawdz.dhl.com.pl/" target="_blank" class="test">
+					<button><img src="img/dhl.png" alt="DHL"></button></a>
+
+				<a href="https://www.ups.com/track?loc=pl_PL&requester=ST/" target="_blank" class="test">
+					<button><img src="img/ups.png" alt="UPS"></button></a>
+
+				<a href="https://www.fedex.com/pl-pl/tracking.html" target="_blank" class="test">
+					<button><img src="img/fedex.png" alt="FEDEX"></button></a>
+
+				<a href="https://gls-group.eu/PL/pl/sledzenie-paczek" target="_blank" class="test">
+					<button><img src="img/gls.png" alt="GLS"></button></a>
+
+				<a href="https://www.dpd.com.pl/Zlokalizuj-paczke" target="_blank" class="test">
+					<button><img src="img/dpd.png" alt="DPD"></button></a>
+
+				<a href="https://inpost.pl/sledzenie-przesylek" target="_blank" class="test">
+					<button><img src="img/inpost.png" alt="INPOST"></button></a>
+
+				<a href="https://emonitoring.poczta-polska.pl/?numer=znajd%C5%BA+przesy%C5%82k%C4%99" target="_blank"
+					class="test">
+					<button><img src="img/poczta.png" alt="POCZTA"></button></a>
+
+				<a href="https://was.schenker.nu/ctts-a/com.dcs.servicebroker.http.HttpXSLTServlet?request.service=CTTSTYPEA&request.method=select&refresh=true&language=pl&country=PL"
+					target="_blank" class="test">
+					<button><img src="img/shenker.png" alt="SHENKER"></button></a>
+				<!-- <button id="kontakty">K</button> -->
+			</div>
+
+		</div>
+	</div>
+	<script src="script.js"></script>
+	<script src="menuHandler.js"></script>
+	<script src="accura.js"></script>
+</body>
+
+</html>

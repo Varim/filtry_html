@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+html {
+    -webkit-app-region: drag;
+    background-color: dfedff;
+    transform: scale(1);
+    overflow-y: hidden;
+}
+
+
+
+body {
+    background: #dfedff;
+
+}
+
+/* #kontener {
+    width: 100px;
+} */
+
+#kontener2 {
+    width: 150px;
+    margin: 0 auto 20;
+}
+
+input:focus {
+    background: #00FFFF;
+}
+
+button.grid {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+
+    padding: 0;
+    margin: 0;
+    /* vertical-align: top; */
+
+}
+
+
+
+
+
+input[type="search"],
+input[type="submit"] {
+    font-size: 90%;
+    /* margin: 0px 0 0 0px; */
+    /* padding: 0; */
+    line-height: 28px;
+    height: 28px;
+    background: url("img/szuka.png") no-repeat 0 0;
+    border: 0 none;
+    font-size: 13px;
+}
+
+input[type="search"] {
+    width: 120px;
+    padding-left: 15px;
+    float: left;
+}
+
+input[type="submit"] {
+    background-position: -167px 0;
+    width: 30px;
+    cursor: pointer;
+}
+
+.kursor {
+    cursor: pointer;
+}
+
+.ramka {
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.test {
+
+    float: left;
+    margin: 0px 3 10 3px;
+}
+
+.test2 {
+
+    float: left;
+    margin: 5px 3 10 3px;
+}
+
+.hide {
+    display: none;
+}
+
+#select {
+    color: rgb(59, 59, 59);
+}
+
+p,
+input,
+button,
+textarea,
+#close,
+#select,
+.kursor,
+#minimize,
+#help,
+#kontakty,
+#dostawcaA {
+    -webkit-app-region: no-drag;
+}
+
+#belka {
+    -webkit-app-region: drag;
+
+    color: rgb(94, 94, 94);
+}
+
+#minimize,
+#ods,
+#close,
+#help,
+#kontakty,
+#kontener {
+    float: left;
+}
+
+#dostawcaA {
+    border: 2px solid rgb(94, 94, 94);
+    font-size: 15px;
+    margin: 1px;
+}
+
+/* #stopka,
+#wersja {
+    text-align: center;
+    font-size: x-small;
+    color: rgb(94, 94, 94);
+} */
+
+
+/* #tracking {
+    border-style: solid;
+    margin: 0px;
+} */
+textarea {
+    width: 150px;
+    height: 80px;
+    resize: none;
+}

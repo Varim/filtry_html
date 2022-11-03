@@ -1,0 +1,13 @@
+box_closed_add			w drodze do salonu
+checks					do odbioru
+clock2					oczekujące na uzupełnienie
+delivery_man_parcel		oczekujące na dosłanie
+document_ok				Zrealizowane
+error					Anulowane
+hourglass				Oczekujące na weryfikacje
+mailbox_empty			u dostawcy
+package_ok				odebrane
+platform_truck			oczekujące na realizację
+rubberstamp				przyjęte do realizacji
+window_oscillograph		w trakcie testów
+wrench					oczekujące na części
