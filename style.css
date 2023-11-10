@@ -116,7 +116,7 @@ body {
 #kontener2 {
     width: 150px;
 	height: 450px;
-    margin: 10 auto 20;
+    margin: 10 auto;
 }
 
 input:focus {
@@ -240,6 +240,7 @@ textarea,
 } */
 textarea {
     width: 150px;
-    height: 80px;
+    height: 53px;
     resize: none;
 }
+
