@@ -115,6 +115,7 @@ body {
 
 #kontener2 {
     width: 150px;
+	height: 450px;
     margin: 10 auto 20;
 }
 
@@ -229,6 +230,7 @@ textarea,
     text-align: left;
     font-size: x-small;
     color: rgb(94, 94, 94);
+	position: fixed;
 } 
 
 
