@@ -224,12 +224,12 @@ textarea,
     margin: 1px;
 }
 
-/* #stopka,
+#stopka,
 #wersja {
-    text-align: center;
+    text-align: left;
     font-size: x-small;
     color: rgb(94, 94, 94);
-} */
+} 
 
 
 /* #tracking {
