@@ -19,6 +19,10 @@ let timeNow = `${a.getFullYear()}-${a.getMonth()+1}-${a.getDate()}`;
 let times = document.querySelectorAll("input[name=datado]");
 times.forEach(time => time.value = timeNow);
 
+let times2 = document.querySelectorAll("input[value='666']");
+times2.forEach(time => time.value = timeNow);
+
+
 //zaznaczanie wyboru oraz wyświetlanie odpowedniego diva
 // document.querySelector("#tools").style.boxShadow = '0 0 2px 2px grey'; // obramowanie na domyślnym elemencie
 

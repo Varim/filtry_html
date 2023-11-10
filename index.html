@@ -93,6 +93,8 @@
 				target="_blank" class="test test2">
 				<button class="grid"><img src="img/lorneta2.png" width="18" height="18"
 						alt="Lornetka serwisowa"></button></a>
+						
+						
 
 			<div id="select" class="kursor">
 				<p id="tools" class="test" data-option="tools">Narzędzia</p>
@@ -119,9 +121,11 @@
 					target="_blank" class="test">
 					<button><img src="img/alert-circle-outline.svg" alt="zablokowane zlecenia" width="20" height="20"></button></a>
 					
-				<a href="http://eserwisapp:8080/role_sys/j_grid.aspx?widok=dprek5" target="_blank" class="test">
-				<input type="hidden" name="dataod" value="2023-11-09">
-					<button><img src="img/email-arrow-right-outline.svg" alt="wysyłka statystyki" width="20" height="20"></button></a>	
+				
+					<form action="http://eserwisapp:8080/role_sys/j_grid.aspx?" target="_blank" class="test">
+				<input type="hidden" name="widok" value="dprek5">
+				<input type="hidden" name="dataod" value="666"><input type="hidden" name="datado" value="">
+				<button><img src="img/email-arrow-right-outline.svg" alt="wysyłka statystyki" width="20" height="20"></button></form>
 					
 					
 				<div><br><textarea id="notatnik" rows="5" cols="16" placeholder="notatnik"></textarea></div><br>
